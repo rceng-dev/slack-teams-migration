@@ -1,0 +1,21 @@
+{
+  "tenantId": "00000000-0000-0000-0000-000000000000",
+  "clientId": "00000000-0000-0000-0000-000000000000",
+  "clientSecret": "",
+  "ownerUpn": "you@yourtenant.onmicrosoft.com",
+
+  "exportPath": "../slack_export/WORKSPACE_EXPORT_FOLDER",
+  "stateDir": "state",
+
+  "teamName": "Argonaut AI (Slack Archive)",
+  "teamDescription": "Imported from Slack export Jul 9 2021 - May 3 2026",
+
+  "channelsInclude": [],
+  "channelsExclude": [],
+
+  "skipJoinLeaveMessages": true,
+  "fallbackUserDisplayName": "Slack Import",
+  "slackUserToken": "",
+  "downloadFiles": false,
+  "rateLimitSleepSeconds": 0.0
+}

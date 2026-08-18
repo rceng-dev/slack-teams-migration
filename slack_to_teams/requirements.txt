@@ -1,0 +1,3 @@
+msal>=1.28
+requests>=2.32
+python-dateutil>=2.9
