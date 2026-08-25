@@ -1,0 +1,30 @@
+# Secrets and operator-specific configuration
+slack_to_teams/config.json
+slack_to_teams/dm_config.json
+.env
+*.token
+
+# Slack data may contain private messages, emails, and file URLs
+slack_export/
+slack_dm_export/
+*.zip
+
+# Resumable checkpoints can contain tenant/user identifiers
+slack_to_teams/state/
+slack_to_teams/state-*/
+slack_to_teams/dm_state/
+
+# Local Python artifacts
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.uv-cache/
+.uv-task-cache/
+
+# Test and editor artifacts
+.pytest_cache/
+.coverage
+.idea/
+.vscode/
